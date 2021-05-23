@@ -1,8 +1,8 @@
 # visual_studio_cpp_bevy_demo
- Project to show how [a simple bevy app](https://github.com/bayswaterpc/bevy_egui_paneled_playground) could be linked to a c++ visual studio project.\
+ Project to show how [a simple bevy app](https://github.com/bayswaterpc/bevy_egui_paneled_playground) could be linked to a c++ visual studio project.
 
 # Progress
-I have been able to link an [egui app](https://github.com/bayswaterpc/visual_studio_cpp_egui_demo)  to a console project and have it run.\
+I have been able to link an [egui app](https://github.com/bayswaterpc/visual_studio_cpp_egui_demo)  to a console project and have it run.
 
 With the bevy app I was hitting a bunch of link errors coming from glslang which I sourced to [khronos glslang](https://github.com/KhronosGroup/glslang).
 
