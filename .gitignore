@@ -1,0 +1,9 @@
+x64
+ConsoleApplication1/Debug
+ConsoleApplication/x64
+.vs
+.idea
+egui_demo_lib/target
+bevy_egui_paneled_playground/.git
+bevy_egui_paneled_playground/target
+bevy_egui_paneled_playground/git_for_contributors
