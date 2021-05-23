@@ -111,3 +111,9 @@ Error	LNK2001	unresolved external symbol "public: static bool __cdecl glslang::T
 ```
 
 If there's anyone out there experienced with linking glslang projects who'se got tips please message.  Thanks!
+
+# Additional Info
+- Using Rust Nightly
+- Using Visual Studio 2019
+- MSVC v142 - VS 2019 C__ x64/x86 Build tools
+- Building for x64 Release
