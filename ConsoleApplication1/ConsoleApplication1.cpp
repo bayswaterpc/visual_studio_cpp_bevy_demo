@@ -22,6 +22,8 @@
 #pragma comment(lib, "../glslang-master-windows-x64-Release/lib/SPIRV-Tools.lib")
 #pragma comment(lib, "../glslang-master-windows-x64-Release/lib/SPIRV-Tools-opt.lib")
 #pragma comment(lib, "../glslang-master-windows-x64-Release/lib/SPVRemapper.lib")
+#pragma comment(lib, "../glslang-master-windows-x64-Release/lib/GenericCodeGen.lib")
+#pragma comment(lib, "../glslang-master-windows-x64-Release/lib/MachineIndependent.lib")
 
 #include <iostream>
 #include "../egui_demo_lib/src/c_wrapper.h";
@@ -32,14 +34,11 @@
 
 int main() {
     int n;
-    std::cout << "Bevy egui app causing linking errors";
+    std::cout << "Got it built and linking but runtime crash";
     std::cin >> n;
     paneled_playground_c_wrapper();
 
     std::cout << "The following egui demo crashes due to \"!\" i.e. never return type in eframe\n Type numeric to continue..";
-    std::cin >> n;
-    start_egui_demo();
-    std::cout << "\nSee doesn't reach : ";
     std::cin >> n;
     return 1;
 }
