@@ -10,7 +10,6 @@
 #pragma comment(lib, "bcrypt.lib")
 #pragma comment(lib, "dwmapi.lib")
 #pragma comment(lib, "Imm32.lib")
-#pragma comment(lib, "Opengl32.lib")
 
 //Added for egui_demo_app_c_wrapper
 #pragma comment(lib, "d3dcompiler")

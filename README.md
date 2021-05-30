@@ -63,4 +63,6 @@ Call Stack
 - Using Rust Nightly
 - Using Visual Studio 2019
 - MSVC v142 - VS 2019 C__ x64/x86 Build tools
-- Building for x64 Release
+
+# Build Instructions
+- 
